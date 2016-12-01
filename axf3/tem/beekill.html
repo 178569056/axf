@@ -1,0 +1,13 @@
+<script type="text/html" id="kill1">
+	<%for(var i=0;i<product.length;i++){%>
+		<li>
+			<div><img src="<%=product[i].img%>"></div>
+			<div>
+				<p><%=product[i].name%></p>
+				<p><%=product[i].specifics%></p>
+				<p><span>￥<span><%=product[i].price%></span></span>/原价：<%=product[i].market_price%>元</p>
+				<div><%=product[i].btnText%></div>
+			</div>
+		</li>	
+	<%}%>
+</script>

@@ -1,0 +1,145 @@
+html{
+	background: #eaeaea;
+}
+.top{
+	padding-top: 16rem;
+}
+/*头部*/
+.myheader{
+	width: 100%;
+	font-size: 1.4rem;
+	line-height: 3.5rem;
+	background: #ffd600;
+	padding-top: 2rem;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 9999;
+}
+.myheader>div:first-child{
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 2rem;
+}
+.myheader>div:first-child span:last-child{
+	flex: 1;
+	display: inline-block;
+	background: url("../../images/mybj1.png") no-repeat left center;
+}
+.myheader>div:first-child span:first-child{
+	flex: 2;
+	text-align: center;
+}
+.myheader ul{
+	flex: 3;
+}
+.myheader>div:first-child img{
+	width: auto;
+	height: 6rem;
+}
+.myheader>div:first-child p:first-of-type{
+	font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+}
+.myheader>div:first-child p:last-of-type{
+	line-height: 2.8rem;
+	background: url("../../images/my2.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: auto 100%;
+    padding-left: 2.9rem;
+    font-size: 1rem;
+	color: #e64f1a;
+}
+
+.myheader>div:last-child{
+	display: flex;
+	background: #f3c800;
+	color: white;
+	height: 3.5rem;
+	font-size: 1.4rem;
+	justify-content: space-between;
+}
+.myheader>div:last-child span{
+	line-height: 3.5rem;
+}
+.myheader>div:last-child div{
+	width: 50%;
+	text-align: center;
+}
+.myheader>div:last-child img{
+	width: 15%;
+	vertical-align: middle;
+	margin-right: 1rem;
+}
+.myheader>div:last-child div:nth-of-type(2){
+	width: 1px;
+	height: 60%;
+	background: white;
+	align-self: center;
+}
+
+/*订单*/
+.order{
+	background: white;
+	width: 100%;
+}
+.order>p{
+	line-height: 4rem;
+	font-size: 1.4rem;
+	padding: 0 1rem;
+	border-bottom: 1px solid #e0e0e0;
+}
+.order>p span{
+	float: right;
+	color: #999;
+}
+.order ul{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	padding: 2rem 0;
+}
+.order ul img{
+	width: 40%;
+	margin-bottom: 1rem;
+}
+.order ul p{
+	font-size: 1.2rem;
+}
+
+/*积分商城*/
+.my_address{
+	background: white;
+	width: 100%;
+	margin-top: 10px;
+}
+.my_address ul{
+	width: 100%;
+	display:flex;
+	flex-wrap: wrap;
+}
+.my_address ul li{
+	width: 25%;
+	text-align: center;
+	padding: .7rem 0;
+	font-size: 1.2rem;
+	border-bottom: 1px solid #EFEFEF;
+}
+.my_address ul li img{
+	width: 40%;
+	margin-bottom: 1rem;
+}
+
+/*退出*/
+.exit{
+	background: white;
+	height: 4rem;
+	width: 100%;
+	line-height: 4rem;
+	font-size: 1.4rem;
+	text-align: center;
+	margin-top: 10px;
+}

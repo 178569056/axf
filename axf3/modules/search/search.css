@@ -1,0 +1,88 @@
+html{
+	background: #efefef;
+}
+.searchhead{
+	border:1px solid #e0e0e0;
+	background-color: #f9fafd;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	font-size: 1.2rem;
+	height: 4.5rem;
+	line-height: 4.5rem;
+}
+.searchhead span:first-child{
+	background: url(../../images/search1.png) no-repeat left center;
+	background-size: auto 2rem;
+	display: inline-block;
+	width: 2rem;
+	height: 4.5rem;
+}
+.searchhead form{
+	padding-left: 9%;
+	background: url(../../images/search2.png) no-repeat .5rem center;
+	background-size: auto 2rem;
+	border:1px solid #e0e0e0;
+	height: 3rem;
+	width: 60%;
+	line-height: 3rem;
+	margin-top: .8rem;
+	margin-left: .5rem;
+	display: inline-block;
+	vertical-align: top;
+}
+.searchhead form input[type=text]{
+	height: 80%;
+	width: 90%;
+	border:none;
+	font-size: 1.4rem;
+	outline:none;
+	background-color: #f9fafd;
+}
+.searchhead span:last-child{
+	position: absolute;
+	right: 5%;
+	top: 3%;
+	font-size: 1.4rem;
+}
+.searchhead span:last-child a{
+	color: #777;
+}
+
+
+/*热门搜索*/
+.find{
+	margin: 6rem 0 2rem 2rem;
+}
+.find span{
+	font-size: 1.4rem;
+	color: #888;
+	line-height: 4rem;
+}
+.find ul{
+	overflow: hidden;
+}
+.find ul li{
+	float:left;
+	background: white;
+	height: 4rem;
+	line-height: 4rem;
+	font-size: 1.2rem;
+	text-align: center;
+	padding: 0 1.5rem;
+	border-radius: 2rem;
+	margin-bottom: 1rem;
+	margin-right: 1rem;
+}
+.clear{
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 10%;
+	height: 4rem;
+	line-height: 4rem;
+	font-size: 1.4rem;
+	text-align: center;
+	color: #aaa;
+	border: solid 1px #e0e0e0;
+}

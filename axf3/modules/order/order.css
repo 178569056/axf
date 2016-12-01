@@ -1,0 +1,99 @@
+html{
+	background: #eaeaea;
+}
+/*头部*/
+.orderhead{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9999;
+}
+.orderhead p{
+	font-size: 1.4rem;
+	line-height: 4rem;
+	text-align: center;
+	font-weight: bold;
+	background: #f9fafd;
+}
+
+
+/*导航*/
+nav{
+	margin-top: 5rem;
+	width: 100%;
+	background: white;
+}
+nav ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+nav li{
+	width: 20%;
+	text-align: center;
+	font-size: 1.1rem;
+	line-height: 3rem;
+	color: #898989;
+	border-bottom: 1px solid #d1d1d1;
+}
+nav li:hover{
+	color: #595656;
+	border-color: #595656;
+}
+
+/*主体*/
+.ordermain{
+	margin-top: 10px;
+	background: white;
+}
+.ordermain>p{
+	border-top: 1px solid #a0a0a0;
+	font-size: 1.4rem;
+	line-height: 1.4rem;
+}
+.ordermain>p span{
+	display: inline-block;
+	border-left: .8rem solid #20b1fa;
+	color: #8a8a8a;
+	font-weight: 700;
+	margin: 1rem;
+	padding: .3rem 0 0 .4rem;
+}
+.ordermain ul li{
+	border-top: 1px solid #cccccc;
+	padding: 1rem;
+	overflow: hidden;
+	position: relative;
+}
+.ordermain li img{
+	float: left;
+	width: 35%;
+	margin:0 1.5rem;
+}
+.ordermain li p:first-of-type{
+	font-size: 1.2rem;
+	padding-top: 1rem; 
+	color: #777777;
+	width: 45%;
+	float: left;
+}
+.ordermain li p:last-of-type{
+	float: left;
+	width: 20%;
+	margin-top: 2.5rem;
+	color: #f1361d;
+	line-height: 2rem;
+}
+.ordermain li p:last-of-type span:first-of-type{
+	font-size: 2rem;
+	font-family: Arial Black;
+}
+.ordermain li>span{
+	width: 3rem;
+	height: 3rem;
+	position: absolute;
+	right: 3rem;
+	bottom: 2.5rem;
+	background: url(../../images/order1.png) no-repeat;
+	background-size: 100% 100%;
+}

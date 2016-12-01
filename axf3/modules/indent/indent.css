@@ -1,0 +1,66 @@
+html{
+	background: #eaeaea;
+}
+
+.indenthead{
+	border:1px solid #e0e0e0;
+	background-color: #f9fafd;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	font-size: 1.2rem;
+	height: 4.5rem;
+	line-height: 4.5rem;
+	display: flex;
+}
+.indenthead span{
+	flex: 1;
+}
+.indenthead div{
+	flex: 3;
+	text-align: center;
+	font-size: 1.4rem;
+}
+.indenthead span:first-child{
+	background: url(../../images/indent1.png) no-repeat 1rem center;
+	background-size: auto 2.5rem;
+}
+
+.indenthead span:last-child{
+	background: url(../../images/indent2.png) no-repeat center;
+	background-size: auto 2.5rem;
+}
+
+/*主体*/
+.indentmain{
+	padding-top: 4.5rem;
+}
+.indentmain ul{
+	display: flex;
+	width: 100%;
+	line-height: 4rem;
+	font-size: 1.2rem;
+	height: 4rem;
+	background: white;
+	justify-content: space-around;
+}
+.indentmain ul li:hover{
+	border-bottom: 2px solid #ff3800;
+	color: #ff3800;
+}
+
+.indentmain>div{
+	margin-top: 20%;
+	font-size: 1.4rem;
+	color: #999;
+	text-align: center;
+}
+.indentmain div div{
+	background: url(../../images/indent3.png) no-repeat center;
+	background-size: 100%;
+	width: 9rem;
+	height: 9rem;
+	margin: 0 auto;
+	margin-bottom: 1rem;
+}

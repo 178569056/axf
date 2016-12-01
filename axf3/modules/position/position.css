@@ -1,0 +1,41 @@
+html{
+	background: #ffd82b;
+}
+
+.position{
+	position: absolute;
+	left: 0;
+	top: 10%;
+	right: 0;
+	bottom: 0;
+	display: block;
+}
+.position div:first-child{
+	padding-top: 40%;
+	width: 60%;
+	height: 10%;
+	background: url("../../images/position1.png") no-repeat center;
+	background-size: 100%;
+	margin: 0 auto;
+}
+.position div:last-child{
+	margin: 0 auto;
+	line-height: 3rem;
+	padding-top: 3.3rem;
+	text-align: center;
+	font-size: 1.2rem;
+	color: #333333;
+}
+.position span{
+	width: 4rem;
+	height: 4rem;
+	background: url("../../images/position2.png") no-repeat center;
+	background-size: 100%;
+	display: inline-block;
+	animation:  anima 1.5s running infinite;
+}
+@keyframes anima{
+	0%{opacity: .1}
+	50%{opacity: 1}
+	100%{opacity: .1}
+}

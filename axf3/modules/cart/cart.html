@@ -1,0 +1,50 @@
+<!-- 头部 -->
+	<div class="carthead">
+		<p>购物车</p>
+	</div>
+
+	<div class="empty">
+		<div class="notice-icon"></div>
+		亲，购物车空空的耶~ <br/>
+		<a href="#home">去逛逛</a>
+	</div>
+
+	<div class="cartmain">
+		<p>鲜蜂侠需要您的精确坐标</p>
+
+		<ul>
+			<li>
+				<p class="cost">
+					闪送超市 <span>凑单专区</span>
+				</p>
+				<p>￥0起送，22:00前满￥30免运费，22:00后满￥69减免运费</p>
+			</li>
+			<li>
+				<p>收货时间 <span>一小时送达</span><span>可预订</span></p>
+				<select>
+					<optgroup label="今天"></optgroup>
+						<option selected="selected">一小时送达</option>
+						<option>15:00~00:00</option>
+					<optgroup label="明天"></optgroup>
+						<option>09:00~12:00</option>
+						<option>12:00~16:00</option>
+						<option>16:00~00:00</option>
+					<optgroup label="后天"></optgroup>
+						<option>09:00~12:00</option>
+						<option>12:00~16:00</option>
+						<option>16:00~00:00</option>
+				</select>
+			</li>
+			<li>
+				收货备注  <input type="text" placeholder="可输入100字以内特殊要求内容">
+			</li>
+		</ul>
+		<table id="cartlist">
+			
+		</table>
+		<div>
+			<p><span id="all"></span>全选</p>
+			<p>共：<span>￥<span id="total"></span></span></p>
+			<p id="ok">选好了</p>
+		</div>
+	</div>

@@ -1,0 +1,194 @@
+html{
+	background: #eaeaea;
+}
+
+.shophead{
+	background-color: #f9fafd;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	font-size: 1.2rem;
+	height: 4.5rem;
+	line-height: 4.5rem;
+	display: flex;
+}
+.shophead span{
+	width: 20%;
+}
+.shophead div{
+	width: 60%;
+	text-align: center;
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+.shophead span{
+	background: url(../../images/indent1.png) no-repeat left center;
+	background-size: auto 2.5rem;
+}
+
+.shopmain{
+	padding-top: 4.5rem;
+	border-top: 1px solid #e0e0e0;
+	background: white;
+}
+.shopmain .ring-wrap{
+	content: '';
+    border-color: #e0e0e0;
+    position: relative;
+    padding: 1rem 0;
+    border-width: 0 0 1px;
+    border-style: none none solid;
+}
+
+.shopmain .ring-wrap>p{
+	color: #999;
+	position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 1.2;
+}
+.shopmain .ring-wrap>p span{
+	color: #e64f1a;
+	font-size: 2rem;
+    margin-top: .5rem;
+}
+.shopmain .ring-wrap-box{
+	transform: rotate(0deg);
+    width: 164px;
+    height: 164px;
+    position: relative;
+    margin: 0 auto;
+}
+.shopmain .ring-wrap-box>div{
+	position: absolute;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border-style: solid;
+    background-size: auto 100%;
+}	    
+.shopmain .ring-wrap-box .circle1{
+	width: 160px;
+    height: 160px;
+    top: 2px;
+    left: 2px;
+    border-width: 21px;
+    clip: rect(0px 80px 160px 0px);
+    transform: rotate(0deg);
+    border-color: #ef592a;
+    animation: left 1s;
+    animation-delay: 1s;
+    overflow: hidden;
+}  
+.shopmain .ring-wrap-box .circle2{
+	width: 160px;
+    height: 160px;
+    top: 2px;
+    left: 2px;
+    border-width: 21px;
+    clip: rect(0px 80px 160px 0px);
+    display: block;
+    transform: rotate(180deg);
+    border-color: #ef592a;
+    animation:  right 1s;
+    overflow: hidden;
+}	   
+.shopmain .inner{
+	border-width: 9px;
+	width: 100%;
+    height: 100%;
+    border-color: #e13600;
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border-style: solid;
+    background-size: auto 100%;
+}
+
+@-webkit-keyframes right{
+	from{
+		-webkit-transform: rotate(0deg);
+	}
+	to{
+		-webkit-transform: rotate(180deg);
+	}
+}
+@-webkit-keyframes left{
+	from{
+		-webkit-transform: rotate(-180deg);
+	}
+	to{	
+		-webkit-transform: rotate(0deg);
+	}
+}
+
+.shopmain>ul{
+	background: white;
+	display: flex;
+	line-height: 1.2rem;
+	font-size: 1.2rem;
+	height: 6rem;
+	border-top: 1px solid #e0e0e0;
+}
+.shopmain>ul li{
+	flex: 1;
+	text-align: center;
+	padding-top: 4rem;
+	color: #999;
+	border-left: #e0e0e0 1px solid;
+	height: 100%;
+}
+.shopmain>ul li:first-child{
+	border-left: none;
+	background: url(../../images/store1.png) no-repeat center .5rem;
+	background-size: 25%;
+}
+.shopmain>ul li:nth-of-type(2){
+	background: url(../../images/store2.png) no-repeat center .5rem;
+	background-size: 25%;
+}
+.shopmain>ul li:nth-of-type(3){
+	background: url(../../images/store3.png) no-repeat center .5rem;
+	background-size: 25%;
+}
+
+.shopend{
+	background: white;
+	margin-top: 10px;
+}
+.shopend>ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.shopend>ul>li{
+	width: 50%;
+	height: 50%;
+	border-bottom: 1px solid #e0e0e0;
+	box-sizing: border-box;
+	padding: 8rem 1rem 0 1rem;
+}
+.shopend>ul>li p{
+	font-size: 1.2rem;
+	line-height: 2rem;
+}
+.shopend>ul>li:nth-of-type(odd){
+	border-right: 1px solid #e0e0e0;
+}
+.shopend>ul>li:first-child{
+	background: url(../../images/store4.png) no-repeat center 0;
+	background-size: 100%;
+}
+.shopend>ul>li:nth-of-type(2){
+	background: url(../../images/store5.png) no-repeat center 0;
+	background-size: 100%;
+}
+.shopend>ul>li:nth-of-type(3){
+	background: url(../../images/store6.png) no-repeat center 0;
+	background-size: 100%;
+}
+.shopend>ul>li:last-child{
+	background: url(../../images/store7.png) no-repeat center 0;
+	background-size: 100%;
+}

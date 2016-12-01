@@ -1,0 +1,19 @@
+<script type="text/html" id="hotlist">
+	<%for(var i=0;i<data.length;i++){%>
+		<li id="<%=md5(JSON.stringify(data[i]))%>">
+			<img src="<%=data[i].img%>">
+			<p><%=data[i].name%></p>
+			<p><span>精选</span><span><%=data[i].pm_desc%></span></p>
+			<p><%=data[i].specifics%></p>
+			<p>￥<%=data[i].price%><span>￥<%=data[i].market_price%></span></p>
+			<div>
+				<span class="min"></span>
+				<span class="num"></span>
+				<span class="add"></span>
+			</div>
+			<textarea style="display:none">
+				<%=JSON.stringify(data[i])%>
+			</textarea>
+		</li>	
+	<%}%>
+</script>

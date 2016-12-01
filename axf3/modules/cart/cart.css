@@ -1,0 +1,220 @@
+html{
+	background: #eaeaea;
+}
+/*头部*/
+.carthead{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	border-bottom: 1px solid #e0e0e0;
+}
+.carthead p{
+	font-size: 1.4rem;
+	line-height: 4rem;
+	text-align: center;
+	font-weight: bold;
+	background: #f9fafd;
+}
+
+.empty{
+	margin-top: 40%;
+	font-size: 1.4rem;
+	line-height: 3rem;
+	text-align: center;
+	color: #999;
+}
+.notice-icon{
+	width: 8rem;
+	height: 8rem;
+	background: url("../../images/shop1.png");
+	background-size: 100%;
+	margin: 0 auto;
+	margin-bottom: .8rem
+}
+.empty a{
+	color: #999;
+	display: inline-block;
+	border: 1px solid #e0e0e0;
+	padding: 0 2rem;
+}
+
+
+
+
+
+.cartmain{
+	padding-top: 4rem;
+}
+.cartmain>p{
+	line-height: 4rem;
+	height: 4rem;
+	background: white;
+	font-size: 1.2rem;
+	padding-left: 1rem;
+	color: #e64f1a;
+	font-weight: bold;
+}
+
+.cartmain ul{
+	margin-top: 1rem;
+	background: white;
+}
+.cartmain ul li{
+	position: relative;
+	padding-left: 1rem;
+	border-bottom: 1px solid #e0e0e0;
+	line-height: 5rem;
+	font-size: 1.4rem;
+}
+.cartmain .cost{
+	color: #898989;
+	height: 4rem;
+    font-size: 1.2rem;
+    line-height: 4rem;
+    position: relative;
+}
+.cost::before{
+	background: #ffd600;
+    content: '';
+    display: inline-block;
+    width: .4rem;
+    height: 1.2rem;
+    vertical-align: -.1rem;
+    border-radius: .2rem;
+}
+.cost span{
+	position: absolute;
+    top: .5rem;
+    right: 2rem;
+    font-size: 1.2rem;
+    color: #e64f1a;
+    width: 7rem;
+    height: 2.4rem;
+    line-height: 2.4rem;
+    border-radius: 1.2rem;
+    border: 1px solid #e64f1a;
+    text-align: center;
+}
+.cartmain li p:nth-of-type(2){
+	line-height: 2rem;
+	font-size: 1rem;
+	color: #999;
+}
+.cartmain li:nth-of-type(2){
+	background: url(../../images/jian.png) no-repeat left 105%  center;
+	background-size: auto 1.3rem;
+}
+.cartmain li p{
+	line-height: 5rem;
+	font-size: 1.4rem;
+	width: 90%;
+}
+.cartmain li p span:first-of-type{
+	color: #e64f1a;
+}
+.cartmain li p span:nth-of-type(2){
+	float: right;
+}
+.cartmain li select{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+.cartmain li input[type=text]{
+	width: 70%;
+	font-size: 1.2rem;
+	height: 3.2rem;
+    border: solid 1px #cecece;
+    text-indent: .5rem;
+    border-radius: .5rem;
+    outline: none;
+}
+
+.cartmain table{
+	width: 100%;
+	background: white;
+	border: none;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+.cartmain tr{
+	display: flex;
+	border-bottom: 1px solid #e0e0e0;
+}
+.cartmain td:first-child, .cartmain td:nth-of-type(2){
+	flex: 1;
+}
+.cartmain td:last-child{
+	flex: 4;
+	line-height: 4rem;
+	padding-left: 1rem;
+	font-size: 1.4rem;
+	position: relative;
+}
+.cartmain td:first-child{
+	background: url(../../images/shop2.png) no-repeat center;
+	background-size: 2rem 2rem;
+	height: 8rem;
+}
+.cartmain td:last-child div div{
+	position: absolute;
+	right: .5rem;
+	bottom: 0;
+}
+.cartmain td:last-child .min{
+	background: #ff4300 url("../../images/bj.png") no-repeat left center;
+	width: 2rem;
+	height:2rem;
+	background-size: 200% 100%;
+	display: inline-block;
+	border:1px solid #ffbe89;
+	border-radius: 50%;
+	margin-right: .5rem;
+	vertical-align: middle;
+}
+.cartmain td:last-child .add{
+	background: #ff4300 url("../../images/bj.png") no-repeat right center;
+	width: 2rem;
+	height:2rem;
+	background-size: 200% 100%;
+	display: inline-block;
+	border:1px solid #ffbe89;
+	border-radius: 50%;
+	margin-left: .5rem;
+	vertical-align: middle;
+}
+
+.cartmain>div:last-child{
+	background: white;
+	display: flex;
+	height: 5rem;
+	line-height: 5rem;
+	font-size: 1.4rem;
+}
+.cartmain>div:last-child p{
+	flex: 1;
+	text-align: center;
+	position: relative;
+}
+.cartmain>div:last-child p:first-child span{
+	background: url(../../images/shop2.png) no-repeat center;
+	width: 2.5rem;
+	height: 2.5rem;
+	background-size: 100%;
+	display: inline-block;
+	position: absolute;
+	left: 1rem;
+	top: .7rem;
+}
+.cartmain>div:last-child p:nth-of-type(2) span{
+	color: #e64f1a;
+	font-weight: bold;
+}
+.cartmain>div:last-child p:last-child{
+	background: #ffd600;
+}
